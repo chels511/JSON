@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kenia&family=Permanent+Marker&family=Poppins:wght@200;400&display=swap');
+
+body {
+      font-family: Agbalumo, sans-serif;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+      background: url(shadow.jpg);
+      background-size: contain;
+      height: 100vh;
+      margin: 0; 
+    }
+
+    .project {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer; 
+    }
+    h1{
+      display: flex;
+      align-content: center;
+      font-family: Kenia, sans-serif;
+      font-size: 80px;
+      color: #f5d682;
+      background: url(fnafhead.jpg);
+      background-size: contain ;
+      margin: auto;
+    }
+
+    h2, p {
+      margin: 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 5px;
+      cursor: pointer; 
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+    }
+
+    .image-container img {
+      max-width: 30%; 
+      flex: 0 0 auto; 
+    }
